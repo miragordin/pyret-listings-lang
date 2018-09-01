@@ -1,7 +1,7 @@
 # pyret-listings-lang
 
 
-The [listings package](https://ctan.org/pkg/listings?lang=en) for LaTeX allows users to typeset programming code from a variety of languages. The file `pyret_lang.tex` defines the syntax coloring and style for code written in Pyret in accordance with the styles in the online Pyret editor. It loads the packages [`listings`](https://ctan.org/pkg/listings?lang=en) and [`xcolor`](https://ctan.org/pkg/xcolor), and defines Pyret as a `listings` language. The syntax to include Pyret code in a LaTeX file is consequently as follows:
+The [listings package](https://ctan.org/pkg/listings?lang=en) for LaTeX allows users to typeset programming code from a variety of languages. The file `pyret_lang.tex` defines the syntax coloring and style for code written in Pyret in accordance with the styles in the online Pyret editor. It loads the packages [`listings`](https://ctan.org/pkg/listings?lang=en) and [`xcolor`](https://ctan.org/pkg/xcolor), and defines Pyret as a `listings` language. The syntax to include Pyret code in a LaTeX file is as follows:
 ```
 \documentclass{article}
 \include{pyret_lang} % might need to specify a file path here
