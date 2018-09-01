@@ -23,6 +23,6 @@ The [listings package](https://ctan.org/pkg/listings?lang=en) for LaTeX allows u
 ```
 which generates the output:
 
-![screenshot-pyret-latex-output](screenshot-pyret-latex-output.PNG =250x100)
+![screenshot-pyret-latex-output | width=50](screenshot-pyret-latex-output.PNG)
 
 In this case, the file `pyret_lang.tex` is in the same directory as the main TeX file; otherwise, include the file path to `pyret_lang.tex`.
